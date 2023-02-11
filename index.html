@@ -4,10 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=>, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formularz</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> pierwszy commit 
-    </h1>
+    <form>
+    <h1> REGISTER FORM </h1>
+    <div class="inputs">
+        <div>
+        <label for="name">First name</label><br>
+        <input type="text" id="name">
+        </div>
+        <div>
+        <label>Last name </label> <br>
+        <input type="text" id="last_name"> <br> 
+</div>
+</div>
+<div>
+        <label>Your Email</label><br>
+        <input type="email"> <br>
+    </div>
+    <div class="inputs">
+        <div>
+        <label for="password">Password</label><br>
+        <input type="password" id="password">
+        </div>
+        <div>
+        <label for="password_confirmation">Confirm Password</label> <br>
+        <input type="password" id="password_confirmation"> <br> 
+</div>
+</div>
+<div>
+        <input type="checkbox" name="agreement" required />
+        <label> I agree to the <a>Terms and Conditions</a></label>
+    </div>
+    </form>
 </body>
 </html>
